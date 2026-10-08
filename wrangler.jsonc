@@ -1,5 +1,8 @@
 {
   "name": "beerjs-madrid",
   "compatibility_date": "2026-10-01",
-  "assets": { "directory": "./dist" }
+  "assets": { "directory": "./dist" },
+  "workers_dev": true,
+  "routes": [{ "pattern": "beerjs.buildinmadrid.dev", "custom_domain": true }],
+  "observability": { "enabled": true }
 }
